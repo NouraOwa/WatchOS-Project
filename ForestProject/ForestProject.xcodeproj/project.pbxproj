@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0352E05C2A2129130064D769 /* ForestProject Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0352E05B2A2129130064D769 /* ForestProject Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0352E0612A2129130064D769 /* ForestProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0352E0602A2129130064D769 /* ForestProjectApp.swift */; };
+		0352E0632A2129130064D769 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0352E0622A2129130064D769 /* ContentView.swift */; };
+		0352E0652A2129150064D769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0352E0642A2129150064D769 /* Assets.xcassets */; };
+		0352E0682A2129150064D769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0352E0672A2129150064D769 /* Preview Assets.xcassets */; };
+		0352E0762A2130DC0064D769 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0352E0752A2130DC0064D769 /* StartPage.swift */; };
+		0352E0782A2132F90064D769 /* CreateSeedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0352E0772A2132F90064D769 /* CreateSeedPage.swift */; };
+		0352E07C2A213C1C0064D769 /* TimerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0352E07B2A213C1C0064D769 /* TimerPage.swift */; };
+		0352E07E2A213E460064D769 /* GiveUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0352E07D2A213E460064D769 /* GiveUpPage.swift */; };
+		0352E0802A213F1F0064D769 /* DeliveringSeedPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0352E07F2A213F1F0064D769 /* DeliveringSeedPage.swift */; };
+		036EF3402A22376F00A127BE /* TimerPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EF33F2A22376F00A127BE /* TimerPageViewModel.swift */; };
+		036EF3422A22379700A127BE /* CreateSeedPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036EF3412A22379700A127BE /* CreateSeedPageViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0352E05D2A2129130064D769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0352E04F2A2129120064D769 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0352E05A2A2129130064D769;
+			remoteInfo = "ForestProject Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0352E06E2A2129150064D769 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0352E05C2A2129130064D769 /* ForestProject Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0352E0552A2129130064D769 /* ForestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0352E05B2A2129130064D769 /* ForestProject Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ForestProject Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0352E0602A2129130064D769 /* ForestProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestProjectApp.swift; sourceTree = "<group>"; };
+		0352E0622A2129130064D769 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0352E0642A2129150064D769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0352E0672A2129150064D769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0352E0752A2130DC0064D769 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		0352E0772A2132F90064D769 /* CreateSeedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSeedPage.swift; sourceTree = "<group>"; };
+		0352E07B2A213C1C0064D769 /* TimerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPage.swift; sourceTree = "<group>"; };
+		0352E07D2A213E460064D769 /* GiveUpPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiveUpPage.swift; sourceTree = "<group>"; };
+		0352E07F2A213F1F0064D769 /* DeliveringSeedPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveringSeedPage.swift; sourceTree = "<group>"; };
+		036EF33F2A22376F00A127BE /* TimerPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPageViewModel.swift; sourceTree = "<group>"; };
+		036EF3412A22379700A127BE /* CreateSeedPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSeedPageViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0352E0582A2129130064D769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0352E04E2A2129120064D769 = {
+			isa = PBXGroup;
+			children = (
+				0352E05F2A2129130064D769 /* ForestProject Watch App */,
+				0352E0562A2129130064D769 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0352E0562A2129130064D769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0352E0552A2129130064D769 /* ForestProject.app */,
+				0352E05B2A2129130064D769 /* ForestProject Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0352E05F2A2129130064D769 /* ForestProject Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				0352E0742A21309F0064D769 /* ViewModel */,
+				0352E0732A2130970064D769 /* Model */,
+				0352E0722A21308D0064D769 /* View */,
+				0352E0602A2129130064D769 /* ForestProjectApp.swift */,
+				0352E0622A2129130064D769 /* ContentView.swift */,
+				0352E0642A2129150064D769 /* Assets.xcassets */,
+				0352E0662A2129150064D769 /* Preview Content */,
+			);
+			path = "ForestProject Watch App";
+			sourceTree = "<group>";
+		};
+		0352E0662A2129150064D769 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0352E0672A2129150064D769 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0352E0722A21308D0064D769 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0352E0752A2130DC0064D769 /* StartPage.swift */,
+				0352E0772A2132F90064D769 /* CreateSeedPage.swift */,
+				0352E07B2A213C1C0064D769 /* TimerPage.swift */,
+				0352E07D2A213E460064D769 /* GiveUpPage.swift */,
+				0352E07F2A213F1F0064D769 /* DeliveringSeedPage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0352E0732A2130970064D769 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0352E0742A21309F0064D769 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				036EF33F2A22376F00A127BE /* TimerPageViewModel.swift */,
+				036EF3412A22379700A127BE /* CreateSeedPageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0352E0542A2129130064D769 /* ForestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0352E06F2A2129150064D769 /* Build configuration list for PBXNativeTarget "ForestProject" */;
+			buildPhases = (
+				0352E0532A2129130064D769 /* Resources */,
+				0352E06E2A2129150064D769 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0352E05E2A2129130064D769 /* PBXTargetDependency */,
+			);
+			name = ForestProject;
+			productName = ForestProject;
+			productReference = 0352E0552A2129130064D769 /* ForestProject.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0352E05A2A2129130064D769 /* ForestProject Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0352E06B2A2129150064D769 /* Build configuration list for PBXNativeTarget "ForestProject Watch App" */;
+			buildPhases = (
+				0352E0572A2129130064D769 /* Sources */,
+				0352E0582A2129130064D769 /* Frameworks */,
+				0352E0592A2129130064D769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ForestProject Watch App";
+			productName = "ForestProject Watch App";
+			productReference = 0352E05B2A2129130064D769 /* ForestProject Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0352E04F2A2129120064D769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0352E0542A2129130064D769 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0352E05A2A2129130064D769 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0352E0522A2129120064D769 /* Build configuration list for PBXProject "ForestProject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0352E04E2A2129120064D769;
+			productRefGroup = 0352E0562A2129130064D769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0352E0542A2129130064D769 /* ForestProject */,
+				0352E05A2A2129130064D769 /* ForestProject Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0352E0532A2129130064D769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0352E0592A2129130064D769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0352E0682A2129150064D769 /* Preview Assets.xcassets in Resources */,
+				0352E0652A2129150064D769 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0352E0572A2129130064D769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0352E0632A2129130064D769 /* ContentView.swift in Sources */,
+				0352E0782A2132F90064D769 /* CreateSeedPage.swift in Sources */,
+				0352E0802A213F1F0064D769 /* DeliveringSeedPage.swift in Sources */,
+				0352E0762A2130DC0064D769 /* StartPage.swift in Sources */,
+				0352E07E2A213E460064D769 /* GiveUpPage.swift in Sources */,
+				036EF3402A22376F00A127BE /* TimerPageViewModel.swift in Sources */,
+				0352E07C2A213C1C0064D769 /* TimerPage.swift in Sources */,
+				036EF3422A22379700A127BE /* CreateSeedPageViewModel.swift in Sources */,
+				0352E0612A2129130064D769 /* ForestProjectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0352E05E2A2129130064D769 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0352E05A2A2129130064D769 /* ForestProject Watch App */;
+			targetProxy = 0352E05D2A2129130064D769 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0352E0692A2129150064D769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0352E06A2A2129150064D769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0352E06C2A2129150064D769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ForestProject Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = RWX4BM392G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ForestProject;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ForestProject.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		0352E06D2A2129150064D769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ForestProject Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = RWX4BM392G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ForestProject;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ForestProject.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		0352E0702A2129150064D769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RWX4BM392G;
+				INFOPLIST_KEY_CFBundleDisplayName = ForestProject;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ForestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0352E0712A2129150064D769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RWX4BM392G;
+				INFOPLIST_KEY_CFBundleDisplayName = ForestProject;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ForestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0352E0522A2129120064D769 /* Build configuration list for PBXProject "ForestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0352E0692A2129150064D769 /* Debug */,
+				0352E06A2A2129150064D769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0352E06B2A2129150064D769 /* Build configuration list for PBXNativeTarget "ForestProject Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0352E06C2A2129150064D769 /* Debug */,
+				0352E06D2A2129150064D769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0352E06F2A2129150064D769 /* Build configuration list for PBXNativeTarget "ForestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0352E0702A2129150064D769 /* Debug */,
+				0352E0712A2129150064D769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0352E04F2A2129120064D769 /* Project object */;
+}
